@@ -1,0 +1,52 @@
+body {
+    background-color:inherit;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: courier;
+    margin: 2px;
+    padding: 5px;
+    font-size: 25px;
+}
+hr {
+    width: 6%;
+    margin-right:auto;
+    height: 2px; <!-- regula el grosor del separador-->
+    background: black;
+}
+
+div {
+    position: relative;
+    padding:0px;
+    margin: 0px;
+    height: 230px;
+}
+
+section {
+    display: inline-block;
+    position: relative;
+    padding: 5;
+    margin: 5px;
+}
+
+img{
+    top: 10px;
+    bottom: 10px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 8px;
+    max-width: 100%; /*para que la imagen se ajuste a su contenedor*/
+    /*aplicamos filtro a la imagenes para opacarlas un poco*/
+  -webkit-filter:brightness(60%);
+   filter:  brightness(60%); /*brightness modula el brillo*/
+}
+
+
+h5 {
+    font-family: courier;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+}
